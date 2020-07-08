@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
-}
+/* .App {
+    background-image: linear-gradient(
+        45deg,
+        #2e1201,
+        #683309,
+        #a5613c,
+        #d9ac8d,
+        #e9d5c4
+    );
+    background-size: cover;
+} */
+/* background-image: linear-gradient(
+                135deg,
+                #1b262c,
+                #0f4c75,
+                #3282b8,
+                #bbe1fa
+            ); */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+    text-align: center;
+    min-width: 100%;
+    min-height: 100%;
+    margin: none;
+    background-image: url(/beach.jpeg);
+    /* position: fixed; */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
 }
